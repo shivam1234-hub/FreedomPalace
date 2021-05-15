@@ -65,8 +65,8 @@
                         <div class="add">
                     <h2>PIZZA</h2>
                     
-                    <button  id="btton0"   type="button">Add+</button>
-                
+                    <button  id="btton0" onclick="chngtext0()"  type="button">Add+</button>
+                    
                 </div>
                     <p>This is our famous Upside Down pizza loaded with ample amount of cheeze.</p>
                     <br>
@@ -80,7 +80,7 @@
                     <div class="add">
                   <h2>BURGER</h2>
                 
-                  <button  id="btton1"  type="button">Add+</button>
+                  <button  id="btton1" onclick="chngtext1()"  type="button">Add+</button>
                 </div>
                   <p>This is our famous rich and creamy burger again loaded with ample amount of chess and vegetables.</p>
                   <br>
@@ -92,7 +92,7 @@
                   <div class="content">
                     <div class="add">
                   <h2>PASTA</h2>
-                  <button  id="btton2" type="button">Add+</button>
+                  <button  id="btton2" onclick="chngtext2()"  type="button">Add+</button>
                 </div>
                   <p>This is our famous creamy red sauce pasta with full of vegetables.</p>
                   <br>
@@ -226,6 +226,20 @@
     {
         menubar.style.color ="rgb(229, 255, 0)";
     }
+  
+    function chngtext0()
+    {
+        document.getElementById("btton0").innerText="Added";
+    }
+    function chngtext1()
+    {
+        document.getElementById("btton1").innerText="Added";
+    }
+    function chngtext2()
+    {
+        document.getElementById("btton2").innerText="Added";
+    }
+
 
 
 
