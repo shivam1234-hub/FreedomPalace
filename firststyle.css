@@ -318,8 +318,10 @@ nav{
     /* font-family: 'Metal Mania';font-size: 62px; */
     font-weight:200;
     background-color:#daf5fb57;
-    border:1.5px dotted black;
-    border-radius:10%;
+    border:1.5px solid rgba(77, 61, 61, 0.39);
+    border-radius:5px;
+    margin:2%;
+    
     }
     .dis{
         color:rgb(49, 137, 224);
@@ -434,12 +436,14 @@ nav{
          font-size: 14px;
          font-weight: 500;
          color:rgb(32, 31, 29);
+        
          
      }
      #btton0:hover
      {
         
         background:rgb(106, 213, 106);
+     
      }
      #btton1{
         position:relative;
@@ -457,6 +461,7 @@ nav{
     {
        
        background:rgb(106, 213, 106);
+       
     }
     #btton2{
         position:relative;
@@ -477,6 +482,10 @@ nav{
     }
     #btton0:focus{
         background:rgb(106, 213, 106);
+        /* display:none; */
+       
+
+      
     }
     #btton1:focus{
         background:rgb(106, 213, 106);
@@ -484,6 +493,7 @@ nav{
     #btton2:focus{
         background:rgb(106, 213, 106);
     }
+    
      #advice{
         width:100%;
         margin:auto;
@@ -649,4 +659,102 @@ nav{
 .favicon{
     border-radius: 50%;
   
+}
+.rv{
+    margin:2%;
+    margin-top:70px;
+    
+   
+   
+}
+.rv h2{
+    color:rgb(250, 106, 106);
+    padding:5px;
+    border-radius:10px;
+    background-color:#daf5fb57;
+    border:1.5px solid rgba(66, 57, 57, 0.37);
+    font-size:37px;
+    font-weight: 500;
+    
+}
+.head h1{
+    font-weight: 500;
+}
+.rev-box{
+    background:rgba(250, 106, 106, 0.082);
+    margin:6%;
+    border-radius:10px;
+    border:1px solid black;
+  
+  
+}
+.nme{
+    padding:30px;
+   
+    
+}
+.in{
+    padding:10px;
+    border-radius:10px;
+    outline: none;
+    border-color:rgb(92, 226, 168);
+}
+.inp{
+    padding:10px;
+   
+    border-radius:10px;
+    margin-bottom:20px;
+    outline: none;
+    border:2px solid rgba(9, 156, 90, 0.438);
+    
+
+
+}
+.image{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom:40px;
+}
+.upload{
+    padding:8px;
+    border-radius:6px;
+    border-color:rgb(30, 241, 189);
+    color:rgb(1, 4, 19);
+    
+    
+}
+.upload:hover{
+    background:rgba(98, 226, 216, 0.349);
+
+ border:1px solid rgba(0, 0, 0, 0.208);
+
+
+   
+
+}
+.submit{
+    padding:8px;
+    border-radius:6px;
+    border-color:rgb(30, 241, 189);
+}
+.submit:hover{
+    background:rgba(98, 226, 216, 0.349);
+
+    border:1px solid rgba(0, 0, 0, 0.208);
+    
+    }
+    @media (max-width:440px)
+    {
+        .inp{
+            width:230px;
+        }
+    }
+@media (min-width:800px)
+{
+    .rev-box{
+        margin:6% 15%;
+        
+        align-items: center;
+        
+    }
 }
