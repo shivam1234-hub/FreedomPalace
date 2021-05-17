@@ -721,10 +721,10 @@ nav{
     border-color:rgb(30, 241, 189);
     color:rgb(1, 4, 19);
     
-    
+    background-color: azure;
 }
 .upload:hover{
-    background:rgba(98, 226, 216, 0.349);
+    background:rgba(40, 241, 224, 0.411);
 
  border:1px solid rgba(0, 0, 0, 0.208);
 
@@ -736,9 +736,10 @@ nav{
     padding:8px;
     border-radius:6px;
     border-color:rgb(30, 241, 189);
+    background-color: azure;
 }
 .submit:hover{
-    background:rgba(98, 226, 216, 0.349);
+    background:rgba(40, 241, 224, 0.411);
 
     border:1px solid rgba(0, 0, 0, 0.208);
     
@@ -758,4 +759,3 @@ nav{
         
     }
 }
-
