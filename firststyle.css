@@ -318,9 +318,9 @@ nav{
     /* font-family: 'Metal Mania';font-size: 62px; */
     font-weight:200;
     background-color:#daf5fb57;
-    border:1.5px solid rgba(77, 61, 61, 0.39);
-    border-radius:40px;
-    margin:1%;
+    border:1px solid rgba(77, 61, 61, 0.39);
+   
+   
     
     }
     .dis{
